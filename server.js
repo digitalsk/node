@@ -56,17 +56,8 @@ var server = http.createServer(function(request, response) {
 });
 
 
-server.listen(3000, function() {
-	console.log("Server listening on port 3000.");
+server.listen(8888, function() {
+	console.log("Server listening on port 8888.");
 });
 
 
-
-
-
-
-
-http.createServer(function(req, res) {
-	res.end('yo');
-}).listen(80);
-console.log('Server is up!');
